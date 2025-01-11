@@ -87,11 +87,11 @@ The following command will transcribe speech in audio files, using the `turbo` m
 
 The default setting (which selects the `turbo` model) works well for transcribing English. To transcribe an audio file containing non-English speech, you can specify the language using the `--language` option:
 
-    whisper japanese.wav --language Japanese
+    whisper japanese.wav --language persian
 
-Adding `--task translate` will translate the speech into English:
+Adding `--task translate` will translate the speech into persian:
 
-    whisper japanese.wav --language Japanese --task translate
+    whisper japanese.wav --language   pesian --task translate
 
 Run the following to view all available options:
 
